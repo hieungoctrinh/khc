@@ -11,7 +11,8 @@
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,css,md}\"",
     "postinstall": "patch-package",
     "clean_android": "cd android && ./gradlew clean",
-    "apk": "cd android && ./gradlew assembleRelease"
+    "apk": "cd android && ./gradlew assembleRelease",
+    "aab": "cd android && ./gradlew bundleRelease"
   },
   "dependencies": {
     "@react-native-async-storage/async-storage": "^2.1.0",
@@ -29,7 +30,7 @@
     "react-native-keyboard-aware-scroll-view": "^0.9.5",
     "react-native-permissions": "^5.4.2",
     "react-native-safe-area-context": "^5.6.1",
-    "react-native-screens": "^4.9.1",
+    "react-native-screens": "^4.18.0",
     "react-native-sound": "^0.13.0",
     "react-native-sound-player": "^0.14.5",
     "react-native-vector-icons": "^8.1.0",
